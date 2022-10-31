@@ -1,10 +1,10 @@
 # ``TestOSLogger``
 
-<!--@START_MENU_TOKEN@-->Summary<!--@END_MENU_TOKEN@-->
+Test documentation
 
 ## Overview
 
-<!--@START_MENU_TOKEN@-->Text<!--@END_MENU_TOKEN@-->
+This is example documentation generated in xcode 14.
 
 ## Topics
 

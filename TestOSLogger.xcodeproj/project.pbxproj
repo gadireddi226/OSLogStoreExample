@@ -16,6 +16,7 @@
 		7D287E9428ED91DD001DC406 /* Extension+OSLogEntryLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D287E8F28ED91DD001DC406 /* Extension+OSLogEntryLevel.swift */; };
 		7D287E9528ED91DD001DC406 /* LogCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D287E9028ED91DD001DC406 /* LogCategory.swift */; };
 		7D287E9628ED91DD001DC406 /* LogStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D287E9128ED91DD001DC406 /* LogStore.swift */; };
+		7D93CA4029106B7600F557C9 /* TestOSLogger.docc in Sources */ = {isa = PBXBuildFile; fileRef = 7D93CA3F29106B7600F557C9 /* TestOSLogger.docc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		7D287E8F28ED91DD001DC406 /* Extension+OSLogEntryLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+OSLogEntryLevel.swift"; sourceTree = "<group>"; };
 		7D287E9028ED91DD001DC406 /* LogCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogCategory.swift; sourceTree = "<group>"; };
 		7D287E9128ED91DD001DC406 /* LogStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogStore.swift; sourceTree = "<group>"; };
+		7D93CA3F29106B7600F557C9 /* TestOSLogger.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TestOSLogger.docc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		7D287E7E28ED91A5001DC406 /* TestOSLogger */ = {
 			isa = PBXGroup;
 			children = (
+				7D93CA3F29106B7600F557C9 /* TestOSLogger.docc */,
 				7D287E8D28ED91DD001DC406 /* Extension+OSLogEntry.swift */,
 				7D287E8F28ED91DD001DC406 /* Extension+OSLogEntryLevel.swift */,
 				7D287E9028ED91DD001DC406 /* LogCategory.swift */,
@@ -154,6 +157,7 @@
 			files = (
 				7D287E8228ED91A5001DC406 /* ContentView.swift in Sources */,
 				7D287E9428ED91DD001DC406 /* Extension+OSLogEntryLevel.swift in Sources */,
+				7D93CA4029106B7600F557C9 /* TestOSLogger.docc in Sources */,
 				7D287E9328ED91DD001DC406 /* LogView.swift in Sources */,
 				7D287E9228ED91DD001DC406 /* Extension+OSLogEntry.swift in Sources */,
 				7D287E9528ED91DD001DC406 /* LogCategory.swift in Sources */,
@@ -199,6 +203,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DOCC_HOSTING_BASE_PATH = OSLogStoreExample;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -259,6 +264,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DOCC_HOSTING_BASE_PATH = OSLogStoreExample;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
